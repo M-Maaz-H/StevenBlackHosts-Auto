@@ -3,7 +3,7 @@
 
 :DownloadingScript
 	Echo Downloading Script
-		powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/M-Maaz-H/StevenBlackHosts-Bat/main/StevenBlack-Hosts-SCH-2.bat -OutFile $env:USERPROFILE\Hosts.bat"
+		powershell -Command "Invoke-WebRequest https://github.com/M-Maaz-H/StevenBlackHosts-Auto/blob/main/StevenBlack-Hosts-UNI.bat -OutFile $env:USERPROFILE\Hosts.bat"
 	Echo  Downloaded --  %USERPROFILE%\Hosts.bat
 
 :CreatingSCHT
